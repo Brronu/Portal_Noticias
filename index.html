@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notícias do Programador</title>
+    <title>Notícias do Dev</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
-</head>
+  <link rel="stylesheet" href="css/estilo.css">
+  </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Noticias Do Programador</a>
+          <a class="navbar-brand" href="#">Noticias Do Dev</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -30,6 +31,7 @@
                   <li><a class="dropdown-item" href="#">Política</a></li>
                   <li><a class="dropdown-item" href="#">Esporte</a></li>
                   <li><a class="dropdown-item" href="#">Saúde</a></li>
+                  <li><a class="dropdown-item" href="#">Tecnologia</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Outras Categorias</a></li>
                 </ul>
@@ -43,13 +45,56 @@
         </div>
       </nav>
 
+  <header>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
 
-    <header>
+      <div class="carousel-item active">
+        <div class="card text-bg-dark">
+          <img src="/assets/imagens/apagao.webp" class="d-block w-100" alt="..." >
+          <div class="card-img-overlay">
+            <h1 class="card-title">Informação</h1>
+            <h3 class="card-text">Apagão nacional: o que se sabe e o que falta saber</h3>
+            <h4 class="card-text"><small>Falha afetou todas as 26 Unidades da Federação, exceto Roraima. Causa do incidente ainda não foi revelada.</small></h4>
+          </div>
+        </div>
+      </div>
 
-    </header>
+      <div class="carousel-item">
+        <div class="card text-bg-dark">
+          <img src="/assets/imagens/inteligencia-artificial.webp" class="d-block w-100" alt="...">
+          <div class="card-img-overlay">
+            <h1 class="card-title">Tecnologia</h1>
+            <h3 class="card-text">inteligência artificial vai substituir os desenvolvedores?</h3>
+            <h4 class="card-text"><small>Entenda como aspectos fundamentalmente humanos podem garantir o futuro da profissão</small></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="card text-bg-dark">
+          <img src="/assets/imagens/ciee.webp" class="d-block w-100" alt="...">
+          <div class="card-img-overlay">
+            <h1 class="card-title">Carreira</h1>
+            <h3 class="card-text">Entenda como aspectos fundamentalmente humanos podem garantir o futuro da profissão</h3>
+            <h4 class="card-text"><small>Maior ONG de inclusão e empregabilidade da América Latina entra em uma nova fase, anuncia parcerias estratégicas - e promove maratona de vagas</small></h4>
+          </div>
+        </div>
+      </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
 
     <main>
-
     </main>
 
     <footer class=" bg-primary text-white pt-5 pb-4">
