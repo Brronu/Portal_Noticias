@@ -9,6 +9,10 @@
     height: 1px;
 }
 
+.cd{height: 300px; overflow-y: scroll;}
+
+.t{height: 40px;}
+
 @media screen and (max-width: 900px){
     #border{
         border-top:none;

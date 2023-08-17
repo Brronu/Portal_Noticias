@@ -7,6 +7,7 @@
     <title>Portal do dev</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="../assets/imagens/logo.jpg" type="image/x-icon">
 </head>
 <body>
       <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="">
@@ -31,8 +32,8 @@
                   <li><a class="dropdown-item" href="#">Política</a></li>
                   <li><a class="dropdown-item" href="#">Esporte</a></li>
                   <li><a class="dropdown-item" href="#">Saúde</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Outras Categorias</a></li>
+                  <li><a class="dropdown-item" href="#">Tecnologia</a></li>
+                  
                 </ul>
               </li>
             </ul>
@@ -45,20 +46,61 @@
       </nav>
 
     <main class="container-fluid">
-   
+      <div class="container mt-5">   
+        <div class="row align-items-center">
+            <div class="col-md-10 mx-auto col-lg-5">
+                <form class="p-4 p-md-5 border rounded-3 bg-light">
+                    <div class="container text-center"> 
+                        <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-video" viewBox="0 0 16 16">
+                        <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                        <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2Zm10.798 11c-.453-1.27-1.76-3-4.798-3-3.037 0-4.345 1.73-4.798 3H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-1.202Z"/>
+                        </svg>
+                        <h1 class="text-center mb-3">Faça seu Login</h1>
+                    </div>  
+<!-- Campo email e senha -->
+                    <div class="form-floating mt-2">
+                        <input type="email" class="form-control shadow p-2 mb-3 bg-body-tertiary rounded" 
+                        id="InputEmail" placeholder="E-mail" minlength="10" maxlength="40">
+                        <label for="InputEmail" required>E-mail</label>
+                    </div>    
+<!-- Campo senha -->
+                    <div class="form-floating mt-2">
+                        <input type="password" class="form-control shadow p-2 mb-3 bg-body-tertiary rounded"
+                         id="InputPassword" placeholder="Senha" minlength="0" maxlength="12">
+                        <label for="InputPassword" required>Senha</label>
+                    </div>
+ <!-- Checkbox Lembrar -->
+                    <div class="chekbox mt-2">
+                        <label for="">
+                            <input type="checkbox" value="lembrar"> Salvar cadastro ! 
+                        </label>
+                    </div>
+
+                    <div class=" text-center d-grid gap-3 col-6 mx-auto">
+                         <button class="btn btn-lg btn-primary mt-4" type="submit">Entrar</button>
+                        <p>Ainda não tem um cadastro ? <a href="formulario.html" class="link-offset-2 link-underline link-underline-opacity-0 ">Criar cadastro</a></p>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
     </main>
 
-    <footer class=" bg-primary text-white pt-5 pb-4">
+    <footer class=" bg-primary text-white pt-5 pb-4 mt-5">
       <div class=" container text-center text-md-start">
         <div class="row text-center text-md-start">
 
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <!-- <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5 class="text-black mb-4 font-weigth-bold text-warning" >Portal do Dev</h5>
             <hr class="mb-3">
             <p> Nossa equipe oferece as notícias atuais de forma precisa. Atuando com impessoalidade, desejamos 
               sempre atualizar o leitor sobre os acontecimentos diários.
             </p>
-          </div>
+          </div> -->
 
 
           <div class=" col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
