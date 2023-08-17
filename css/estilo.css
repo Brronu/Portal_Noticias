@@ -9,6 +9,7 @@
     height: 1px;
 }
 
+<<<<<<< HEAD
 .cu:hover{
     color:blue;
     cursor: pointer;
@@ -22,6 +23,11 @@
 
 
 
+=======
+.cd{height: 300px; overflow-y: scroll;}
+
+.t{height: 40px;}
+>>>>>>> 6323b4b1a5d3336de0dd697cd0360c4f38097a8f
 
 @media screen and (max-width: 900px){
     #border{
