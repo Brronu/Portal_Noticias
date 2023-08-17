@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notícias do Programador</title>
+    <title>Portal do dev</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
       <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Noticias Do Programador</a>
+          <a class="navbar-brand" href="#">Portal do Dev</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -44,8 +45,144 @@
         </div>
       </nav>
 
-    <main class="container-fluid">
+    <main class="container bg-ligth">
 
+      
+      <h1 class="text-center my-5">Formulário de Cadastro</h1>
+      <form action="#">
+        <hr>
+          <!-- campo de texto nome -->
+          <section class="row mb-2" >
+              <div class=" col-md-6">
+                  <label for="Nome" class="mb-2">Seu nome:</label>
+                  <input type="text" id="Nome" name="Nome" class="form-control">
+              </div>
+              <div class=" col-md-6">
+                  <label for="Nome" class="mb-2">Seu sobrenome:</label>
+                  <input type="" id="Nome" name="Nome" class="form-control">
+              </div>
+          </section>
+  
+          <!-- campo numero e texto: idade e endereço -->
+          <section class="row mb-2">
+              <div class="col-md-6">
+                  <label for="Idade" class="mb-2">Sua data de nascimento:</label>
+                  <input type="date" name="idade" id="idade" class="form-control">
+              </div>
+      
+              <div class="col-md-6">
+                  <label for="endereço" class="mb-2">Seu endereço:</label>
+                  <input type="text" name="endereco" id="endereco" class="form-control">
+              </div>
+          </section>
+
+          </section>
+          <!-- campo email : email -->
+          <section class="row mb-3">
+              <div class="col-md-6">
+                  <label for="email" class="mb-2">Seu e-mail:</label>
+                  <input type="email" name="email" id="email" class="form-control border">
+              </div>
+              <div class="col-md-6">
+                <label for="confirmar" class="mb-2">Confirmação de Email:</label>
+                <input type="text" name="confirmar" id="confirmar" class="form-control" placeholder="email@email.com"
+                disabled>
+            </div>
+          </section>
+  
+          <!-- Senha -->
+          <section class="row mb-4">
+              <div class="col-md-12 input-group">
+                  <label for="senha" class="input-group-text col-form-label bg-success-subtle">Senha</label>
+                  <input type="password" name="senha" id="senha" class="form-control" > 
+                  <i class="fa-solid fa-eye btn  bg-success-subtle fs-5"></i>
+              </div> 
+          </section>
+  
+          <!-- termos do contrato -->
+          <div class=" alert alert-warning nt-2">
+            <p>Você aceita os termos do contrato ?</p>
+          </div>
+  
+          <section class="form-check fomr-switch"> 
+            <input type="checkbox" name="escolha" id="escolha" class="form-check-input">
+            <label for="escoha" class="form-check-label">Exibir termos do contrato</label>
+          </section>
+
+          <hr>
+  
+  
+          <!-- info do contrato -->
+          <section class="p-4 mt-2" id="contrato">
+            <div class="container-fluid">
+              <h1>Termos do contrato</h1>
+              <p class="lead altura cd">
+                CONTRATO DE CADASTRO
+
+1. Partes Envolvidas
+
+Este Contrato de Cadastro é celebrado, uma empresa legalmente constituída, com sede em São Luis, doravante referida como "Empresa", e a pessoa física ou jurídica que preenche o formulário de cadastro, doravante referida como "Usuário".
+
+2. Objeto
+
+O presente contrato tem como objetivo estabelecer as condições pelas quais o Usuário realizará o cadastro junto à Empresa, a fim de utilizar os serviços disponibilizados pela Empresa de acordo com suas necessidades e termos específicos.
+
+3. Cadastro
+
+3.1. O Usuário declara que todas as informações fornecidas no formulário de cadastro são verdadeiras, completas e precisas. A Empresa não se responsabiliza por informações incorretas ou incompletas fornecidas pelo Usuário.
+
+3.2. O Usuário compromete-se a manter suas informações de cadastro atualizadas e a informar imediatamente a Empresa sobre quaisquer alterações relevantes.
+
+4. Uso dos Serviços
+
+4.1. O Usuário concorda em utilizar os serviços oferecidos pela Empresa de acordo com as leis aplicáveis e os termos e condições estabelecidos neste Contrato.
+
+4.2. O Usuário será responsável por todas as atividades realizadas em sua conta de usuário, incluindo o uso de senhas e credenciais de acesso.
+
+5. Privacidade e Proteção de Dados
+
+5.1. A Empresa compromete-se a tratar as informações fornecidas pelo Usuário com confidencialidade e a utilizá-las apenas para os fins relacionados aos serviços prestados.
+
+5.2. O Usuário concorda com a política de privacidade da Empresa, disponível no site oficial, que descreve como as informações do Usuário são coletadas, utilizadas, armazenadas e protegidas.
+
+6. Propriedade Intelectual
+
+6.1. Todos os direitos de propriedade intelectual relacionados aos serviços e conteúdos fornecidos pela Empresa são de sua exclusiva titularidade.
+
+6.2. O Usuário concorda em não reproduzir, distribuir, modificar ou explorar comercialmente qualquer parte dos serviços ou conteúdos da Empresa sem autorização expressa por escrito.
+
+7. Rescisão
+
+7.1. A Empresa reserva-se o direito de rescindir o presente contrato a qualquer momento, caso o Usuário viole os termos estabelecidos neste Contrato.
+
+7.2. O Usuário poderá solicitar a exclusão de sua conta de usuário a qualquer momento, conforme procedimentos definidos pela Empresa.
+
+8. Disposições Gerais
+
+8.1. O presente Contrato constitui o entendimento completo entre as partes em relação ao objeto aqui estabelecido, substituindo qualquer acordo ou entendimento anterior.
+
+8.2. Este Contrato não poderá ser cedido ou transferido pelo Usuário sem o consentimento prévio por escrito da Empresa.
+
+9. Lei Aplicável e Jurisdição
+
+Este Contrato será regido pelas leis do País, e quaisquer disputas decorrentes ou relacionadas a este Contrato serão submetidas à jurisdição exclusiva dos tribunais competentes do Local.
+
+Ao preencher e enviar o formulário de cadastro, o Usuário declara ter lido, compreendido e concordado com todos os termos e condições estabelecidos neste Contrato.
+              </p>
+               
+              <hr>
+  
+              <div class="form-check">
+                <input type="checkbox" name="concordo" id="concordo" value="concordo" class="form-check-input">
+                <label for="concordo" class="form-check-label">Concordo</label>
+              </div>
+            </div>
+          
+          <div class="col-md-6 mx-auto my-3">
+             <button type="submit" class="btn btn-primary col-12">Enviar Cadastro</button>
+          </div> 
+
+      </form>
     </main>
 
     <footer class=" bg-primary text-white pt-5 pb-4">
@@ -53,7 +190,7 @@
         <div class="row text-center text-md-start">
 
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-black mb-4 font-weigth-bold text-warning" >Notícias do Progamador</h5>
+            <h5 class="text-black mb-4 font-weigth-bold text-warning" >Portal do Dev</h5>
             <hr class="mb-3">
             <p> Nossa equipe oferece as notícias atuais de forma precisa. Atuando com impessoalidade, desejamos 
               sempre atualizar o leitor sobre os acontecimentos diários.
@@ -126,10 +263,9 @@
             </p>
           </div> 
     </footer>
+
           
-    
- 
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="form.js"></script>
 </body>
 </html>
