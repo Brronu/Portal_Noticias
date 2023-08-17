@@ -1,10 +1,12 @@
 .active{
     border-bottom: 1px solid #fff;
-    border-top: 1px solid #fff;
 }
 
 .linha:hover{
     border-bottom: 1px solid #fff;
+}
+.reta{
+    height: 1px;
 }
 
 @media screen and (max-width: 900px){
