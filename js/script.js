@@ -51,20 +51,6 @@ escolha.addEventListener("change", ()=>{
 
 })
 
-let concordo = document.querySelector("#concordo")
-
-concordo.addEventListener("change", ()=>{
-    if(concordo.checked){
-        alert("obrigado pela escolha")
-    }
-    else{
-        alert("aceite novamente")
-        let mensagem = prompt("Porque você desmarcou ?") 
-        //  cria uma caixa de texto
-    }
-
-
-})
 
 let senha = document.querySelector("#senha")
 let btn_eye = document.querySelector(".fa-eye")

@@ -9,6 +9,7 @@
     height: 1px;
 }
 
+<<<<<<< HEAD
 .fonte{
     font-family: 'Montserrat', sans-serif;
 }
@@ -35,6 +36,28 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff0000', endColorstr='#ff0000',GradientType=0 );
 }
 
+=======
+<<<<<<< HEAD
+.cu:hover{
+    color:blue;
+    cursor: pointer;
+    /* box-shadow: 2px 3px 5px 3px rgb(121, 119, 119) */
+}
+
+.cor{
+    color:darkblue;
+}
+
+
+
+
+=======
+.cd{height: 300px; overflow-y: scroll;}
+
+.t{height: 40px;}
+>>>>>>> 6323b4b1a5d3336de0dd697cd0360c4f38097a8f
+
+>>>>>>> a8dcf37a3ffc1be395b99c6e23a8fd086f2f8c1e
 @media screen and (max-width: 900px){
     #border{
         border-top:none;
