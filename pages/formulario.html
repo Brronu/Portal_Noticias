@@ -81,7 +81,7 @@
           <section class="row mb-4">
               <div class="col-md-12 input-group">
                   <label for="senha" class="input-group-text col-form-label bg-success-subtle">Senha</label>
-                  <input type="password" name="senha" id="senha" class="form-control" required > 
+                  <input type="password" name="senha" id="senha" class="form-control" maxlength="15" required > 
                   <i class="fa-solid fa-eye btn  bg-success-subtle fs-5"></i>
               </div> 
           </section>
@@ -165,8 +165,9 @@ Ao preencher e enviar o formulário de cadastro, o Usuário declara ter lido, co
               </div>
             </div>
           
-          <div class="col-md-6 mx-auto my-3">
-             <button type="submit" class="btn btn-primary col-12">Enviar Cadastro</button>
+          <div class="col-md-6 mx-auto my-3 d-grid gap-2">
+            <a href="/index.html" class="btn btn-primary  ">Entrar</a>
+             <!-- <button type="submit" class="btn btn-primary col-12">Enviar Cadastro</button> -->
           </div> 
       </form>
     </main>
