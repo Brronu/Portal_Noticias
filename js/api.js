@@ -5,11 +5,13 @@ async function carregarDados(){
 
     const resultado = await fetch(url)
     const dados = await resultado.json()
-
+    console.log (dados)
     for (const item of dados){
-        const titulo = document.createElement("h2")
+
+        let card = document.createElement("div")
+        const titulo = document.createElement("h1")
         const resumo = document.createElement("p")
-        const autor = document.createElement("h5")
+        const autor = document.createElement("p")
         const secao = document.createElement("h3")
         const data = document.createElement("p")
 
@@ -19,13 +21,16 @@ async function carregarDados(){
         secao.textContent = item.secao
         data.textContent = item.data
 
-        noticia.appendChild(titulo)
-        noticia.appendChild(resumo)
-        noticia.appendChild(autor)
-        noticia.appendChild(secao)
-        noticia.appendChild(data)
 
-        noticia.appendChild(info)
+
+        card.appendChild(titulo)
+        card.appendChild(resumo)
+        card.appendChild(autor)
+        card.appendChild(secao)
+        card.appendChild(data)
+
+        noticia.appendChild(card)
 
     }
 }
+carregarDados()

@@ -42,9 +42,15 @@
     #alinhar{
         display: flex;
         justify-content: center;
-    }
+    } 
 
+    #barralateral{
+        display: none;
+    }
 } 
 
 .cd{height: 300px; overflow-y: scroll;} 
+<<<<<<< HEAD
 
+=======
+>>>>>>> eaadea607eeabb6f136d91458ef349262e012ef1
