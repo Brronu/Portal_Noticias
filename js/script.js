@@ -52,24 +52,26 @@ escolha.addEventListener("change", ()=>{
 })
 
 
-let senha = document.querySelector("#senha")
-let btn_eye = document.querySelector(".fa-eye")
+let mensagem = document.querySelector("#mensagem")
+let restante = document.querySelector("#restante")
 
-// ()=>() isto é uma arrow function, ou seja uma versão resumida da versão anonima 
-btn_eye.addEventListener("click", ()=>{
-    if(btn_eye.classList.contains("fa-eye")){
-        // console.log("a classe existe")
-        btn_eye.classList.remove("fa-eye")
-        btn_eye.classList.add("fa-eye-slash")
 
-        senha.setAttribute("type", "text")
 
+let limite = 100
+mensagem.addEventListener("keyup", ()=>{
+    // console.log(mensagem.value.length)
+    restante.textContent = mensagem.value.length
+
+    mensagem.setAttribute("maxlength", limite)
+    console.log(restante.parentNode)
+
+    if(restante.textContent == 100){
+        mensagem.classList.add("border-danger")
+        restante.parentNode.style.color = "red"
     }
     else{
-        // console.log("a classe não existe")
-        btn_eye.classList.remove("fa-eye-slash")
-        btn_eye.classList.add("fa-eye")
-
-        senha.setAttribute("type", "password")
+        mensagem.classList.remove("border-danger")
+        restante.parentNode
     }
+
 })
