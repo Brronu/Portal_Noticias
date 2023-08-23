@@ -29,6 +29,11 @@
     color:darkblue;
 }
 
+.logo{
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
 @media screen and (max-width: 900px){
     #border{
         border-top:none;
@@ -50,7 +55,3 @@
 } 
 
 .cd{height: 300px; overflow-y: scroll;} 
-<<<<<<< HEAD
-
-=======
->>>>>>> eaadea607eeabb6f136d91458ef349262e012ef1
