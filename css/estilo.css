@@ -16,11 +16,13 @@
     color:blue;
     cursor: pointer;
 }
+.margin{
+    margin-top:150px;
+}
 
 .cu:hover{
     color:blue;
     cursor: pointer;
-    /* box-shadow: 2px 3px 5px 3px rgb(121, 119, 119) */
 }
 
 .cor{
@@ -46,4 +48,3 @@
 
 .cd{height: 300px; overflow-y: scroll;} 
 
-.d{ margin-left: 100px;}
