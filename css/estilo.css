@@ -29,6 +29,19 @@
     color:darkblue;
 }
 
+.backgroud{
+    background-color: cadetblue;
+}
+
+.efeitocard:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.efeitocard{
+    box-shadow: 5px 5px 15px black;
+    transition: 0.3s;
+}
+
 @media screen and (max-width: 900px){
     #border{
         border-top:none;
@@ -50,7 +63,3 @@
 } 
 
 .cd{height: 300px; overflow-y: scroll;} 
-<<<<<<< HEAD
-
-=======
->>>>>>> eaadea607eeabb6f136d91458ef349262e012ef1
