@@ -20,6 +20,17 @@
     margin-top:150px;
 }
 
+.efeito:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    cursor: pointer;
+}
+
+.efeito{
+    box-shadow: 0px 0px 5px black;
+    transition: 0.1s;
+}
+
+
 .cu:hover{
     color:blue;
     cursor: pointer;
@@ -30,7 +41,7 @@
 }
 
 .backgroud{
-    background-color: cadetblue;
+    background-image: linear-gradient(rgb(60, 163, 231), white);
 }
 
 .efeitocard:hover{
@@ -40,6 +51,7 @@
 .efeitocard{
     box-shadow: 5px 5px 15px black;
     transition: 0.3s;
+    min-height:400px;
 }
 
 @media screen and (max-width: 900px){

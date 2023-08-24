@@ -8,13 +8,13 @@ async function fetchAndDisplayCards() {
         // Iterar sobre os dados e criar os cards
         data.forEach(conteudo => {
             const card = document.createElement('div');
-            card.classList.add('col-md-4', 'mb-4'); // Classes do Bootstrap
+            card.classList.add('col-md-6', 'col-md-6', 'mb-4'); // Classes do Bootstrap
             card.innerHTML = `
             <div class="col">
             <div class="card efeitocard">
-              <div class="card-body backgroud">
-                <h5 class="card-title">${conteudo.titulo}</h5>
-                <p class="card-text ">${conteudo.resumo}</p>
+              <div class="card-body backgroud ">
+                <h3 class="card-title text-center">${conteudo.titulo}</h5>
+                <p class="card-text mt-5 text-center lead">${conteudo.resumo}</p>
               </div>
               <ul class="list-group list-group-flush">
               <h5 class="list-group-item">${conteudo.secao}</h5>
