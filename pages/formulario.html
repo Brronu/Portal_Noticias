@@ -12,6 +12,9 @@
 <body>
       <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="">
         <div class="container-fluid">
+          <i class="icon ">
+            <img style="width: 45px;" class="logo" src="/assets/imagens/dev-black.png" alt="">
+          </i>
           <a class="navbar-brand" href="#">Portal do Dev</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -35,7 +38,7 @@
       </nav>
 
     <main class="container bg-ligth">      
-      <h1 class="text-center my-5">Formulário de Cadastro</h1>
+      <h1 class="text-center my-5">Formulário de Envio de Mensagem</h1>
       <form action="#">
         <hr>
           <!-- campo de texto nome -->
@@ -76,19 +79,29 @@
                 disabled>
             </div>
           </section>
+
+
+          <section class="row-mb-3 my-3">
+            <div class="col-md-12">
+              <label for="">Envie seu arquivo aqui:</label>
+              <input type="file" name="arquivo" id="arquivo" accept="image/*">
+            </div>
+          </section>
   
-          <!-- Senha -->
-          <section class="row mb-4">
-              <div class="col-md-12 input-group">
-                  <label for="senha" class="input-group-text col-form-label bg-success-subtle">Senha</label>
-                  <input type="password" name="senha" id="senha" class="form-control" maxlength="15" required > 
-                  <i class="fa-solid fa-eye btn  bg-success-subtle fs-5"></i>
-              </div> 
+          <section class="row-mb-4">
+            <div class="col-md-12">
+              <label for="" class="mb-2">Comente sobre a notícia escolhida:</label>
+              <textarea name="mensagem" id="mensagem"  placeholder="descreva brevemente sua opinião" class="form-control mb-2"></textarea>
+  
+              <p class="text-end">Você já usou: <span id="restante">0</span> Caractere</p>
+   
+  
+            </div>
           </section>
   
           <!-- termos do contrato -->
           <div class=" alert alert-warning nt-2">
-            <p>Você aceita os termos do contrato ?</p>
+            <p>Você aceita os termos do contrato para enviar mensagem ?</p>
           </div>
   
           <section class="form-check fomr-switch"> 
@@ -166,7 +179,7 @@ Ao preencher e enviar o formulário de cadastro, o Usuário declara ter lido, co
             </div>
           
           <div class="col-md-6 mx-auto my-3 d-grid gap-2">
-            <a href="/index.html" class="btn btn-primary  ">Entrar</a>
+            <a href="/index.html" class="btn btn-primary  ">Enviar Mensagem</a>
              <!-- <button type="submit" class="btn btn-primary col-12">Enviar Cadastro</button> -->
           </div> 
       </form>
